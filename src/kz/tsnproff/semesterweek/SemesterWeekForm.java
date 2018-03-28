@@ -43,7 +43,7 @@ public class SemesterWeekForm extends javax.swing.JFrame {
         jButton_Now = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Определитель учебной недели 1.1 by TSN, 2017");
+        setTitle("Определитель учебной недели 1.2 by TSN, 2018");
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -62,7 +62,7 @@ public class SemesterWeekForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton_Result);
-        jButton_Result.setBounds(210, 20, 200, 40);
+        jButton_Result.setBounds(220, 20, 250, 40);
 
         jTextArea_Result.setEditable(false);
         jTextArea_Result.setColumns(20);
@@ -70,7 +70,7 @@ public class SemesterWeekForm extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea_Result);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(20, 70, 390, 100);
+        jScrollPane1.setBounds(20, 70, 450, 100);
 
         jFormattedTextField_Date.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getDateInstance(java.text.DateFormat.MEDIUM))));
         jFormattedTextField_Date.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -85,7 +85,7 @@ public class SemesterWeekForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jCheckBox_invertNumerator);
-        jCheckBox_invertNumerator.setBounds(20, 210, 320, 23);
+        jCheckBox_invertNumerator.setBounds(20, 210, 330, 22);
 
         jSpinner_displacementWeekSemester.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -97,15 +97,15 @@ public class SemesterWeekForm extends javax.swing.JFrame {
 
         jLabel1.setText("Номер недели года для начала семестра:");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(30, 180, 260, 14);
+        jLabel1.setBounds(30, 180, 260, 17);
 
         jTextField_Info.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(jTextField_Info);
-        jTextField_Info.setBounds(20, 270, 390, 40);
+        jTextField_Info.setBounds(20, 270, 450, 40);
 
         jLabel2.setText("впишите свой комментарий здесь:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(110, 250, 200, 14);
+        jLabel2.setBounds(110, 250, 230, 17);
 
         jButton_Now.setText("Сейчас");
         jButton_Now.addActionListener(new java.awt.event.ActionListener() {
@@ -114,9 +114,9 @@ public class SemesterWeekForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton_Now);
-        jButton_Now.setBounds(120, 20, 70, 40);
+        jButton_Now.setBounds(120, 20, 90, 40);
 
-        setSize(new java.awt.Dimension(442, 360));
+        setSize(new java.awt.Dimension(504, 360));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
